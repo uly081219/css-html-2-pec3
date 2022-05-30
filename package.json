@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uly081219/festival-jazz"
+    "url": "git+https://github.com/uly081219/css-html-2-pec3"
   },
   "author": {
     "name": "Ulyana Sudlenkova",
@@ -31,9 +31,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uly081219/festival-jazz/issues"
+    "url": "https://github.com/uly081219/css-html-2-pec3/issues"
   },
-  "homepage": "https://github.com/uly081219/festival-jazz#readme",
+  "homepage": "https://github.com/uly081219/css-html-2-pec3#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
     "autoprefixer": "^10.4.2",
