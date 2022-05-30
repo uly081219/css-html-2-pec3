@@ -84,6 +84,6 @@ src
 
 Cada vez que realizamos cambios en la rama main se deploya automáticamente el sitio web en la plataforma netlify
 
-Url del proyecto: https://cerulean-kringle-87662b.netlify.app
+Url del proyecto: https://elegant-taiyaki-2ef29d.netlify.app/
 
 ### 🤹 Feliz desarrollo !
