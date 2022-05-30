@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-color;
+  overflow-x: hidden;
+  color: $text-color;
+}
+
+footer {
+  color: $text-color-dark;
+}
+
+footer .container {
+  @apply font-['Open_Sans'];
+}
+
+footer .container .festival--dates .row {
+  @media (min-width: 768px) {
+    @apply grid grid-cols-10 gap-4 text-base pb-6;
+  }
+}
+
+footer .container .festival--dates .row .span {
+  @apply col-span-3;
+}
+
+footer .container .festival--dates .row .right {
+  @apply pt-5;
+
+  @media (min-width: 768px) {
+    position:relative;
+    left:-20px;
+    @apply text-right pt-0;
+  }
+}
+
+footer h2 {
+  @apply text-4xl;
+}
+
+.btn--tickets {
+  background-color: #ebc05e;
+  color: $text-color;
+  @apply py-2 px-4 rounded;
+}
+
+.menu {
+  @apply flex font-['Open_Sans'] clear-both;
+  @media (min-width: 768px) {
+    @apply clear-none;
+  }
+}
+
+.menu li {
+  @apply mx-6;
+  @media (min-width: 768px) {
+    @apply mx-4;
+  }
+}
+
+nav .link {
+  color: $link;
+}
+
+nav .link a {
+  color: $link !important;
+}
+
+nav .link a:hover {
+  color: $link-hover !important;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #000;
+  font-size: 1.4rem;
+  position: relative;
+  left: -10px;
+}
+
+.container-fluid {
+  background-color: $bg-color-container;
+}
+
+.festival--dates h2  {
+  padding-bottom: 5px;
+}
+
+.festival--dates .row  {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.top-line {
+  border-top: 1px solid rgba(92, 75, 36, .2);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+
+.top-line > ul {
+  opacity: 50%;
+}
+
+.fa-facebook, .fa-twitter, .fa-google-plus-g {
+  color: $text-color-dark;
+}

@@ -1,0 +1,101 @@
+<section class="tickets">
+    <div class="container-fluid tickets__title">
+        <h1 class="tickets__title--h1">Tickets</h1>
+    </div>
+
+    <div class="alert tickets__alert" role="alert">
+        Almost all tickets are sold
+    </div>
+
+    <p>Fill the follow form. Tickets are sold by order of form sent</p>
+
+    <form class="tickets__form" name="tickets" method="post" data-netlify="true">
+        <fieldset class="tickets__form--fieldset">
+        <legend>Request your tickets</legend>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm">
+                    <label for="name" class="tickets__form--label">Name</label>
+                    <input tabindex="1" autofocus type="text" required class="form-control" name="name" id="name">
+                </div>
+                <div class="col-sm">
+                    <label for="name" class="tickets__form--label">Surname</label>
+                    <input tabindex="2" type="text" required class="form-control" name="surname" id="surname">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm">
+                    <label for="email" class="tickets__form--label">Email</label>
+                    <input tabindex="3" type="email" required class="form-control" name="email" id="email">
+                </div>
+                <div class="col-sm">
+                    <label for="phone" class="tickets__form--label">Phone</label>
+                    <input tabindex="4" type="tel" required class="form-control" name="phone" id="phone">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm">
+                    <label for="date_birth" class="tickets__form--label">Date of birth</label>
+                    <input tabindex="5" type="date" required class="form-control" name="date_birth" id="date_birth">
+                </div>
+                <div class="col-sm">
+                    <label for="id" class="tickets__form--label">NIF / NIE / Passport Id</label>
+                    <input tabindex="6" type="text" required class="form-control" name="id" id="id">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm">
+                    <label for="num_tickets" class="tickets__form--label">Num of Tickets</label>
+                    <select tabindex="7" required class="form-control" id="num_tickets" name="num_tickets">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <label for="tickets" class="tickets__form--label">Tickets</label>
+                    <select tabindex="8" required class="form-control" id="tickets" name="tickets">
+                        <option>All Days - 240€</option>
+                        <option>10th of August - 100€</option>
+                        <option>11th of August - 100€</option>
+                        <option>12th of August - 100€</option>>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm">
+                    <label for="credit_card" class="tickets__form--label">Credit Card</label>
+                    <input tabindex="9" autofocus type="text" required class="form-control" name="credit_card" id="credit_card">
+                </div>
+                <div class="col-sm">
+                    <label for="security_code" class="tickets__form--label">Secutity code</label>
+                    <input tabindex="10" maxlength="3" type="text" required class="form-control" name="security_code" id="security_code">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <div class="col-12">
+                <button class="btn btn-primary tickets__form--button" type="submit">Submit form</button>
+            </div>
+        </div>
+
+        </fieldset>
+    </form>
+
+</section>

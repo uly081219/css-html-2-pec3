@@ -1,0 +1,54 @@
+.tickets {
+  color: $text-color-dark;
+}
+
+.tickets__title {
+  text-align: center;
+  height: 279px;
+  background: url("../images/piano-2.jpg");
+  color: $text-color;
+}
+
+.tickets__form {
+  padding-left: 5%;
+  padding-right: 5%;
+
+  @media (min-width: 768px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+.tickets__title--h1 {
+  padding-top: 30px;
+}
+
+.tickets__alert {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+}
+
+.tickets__form--button {
+  margin-top:20px;
+}
+
+.tickets__form--fieldset {
+  border: 1px solid rgba(92, 75, 36, .2);
+  -webkit-background-clip: padding-box; /* for Safari */
+  background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+  padding: 20px;
+}
+
+.tickets__form--label {
+  padding-top: 10px;
+}

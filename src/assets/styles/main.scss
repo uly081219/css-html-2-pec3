@@ -1,0 +1,33 @@
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+/**
+ * Import fonts
+ */
+
+@import "fonts";
+
+/**
+ * Import npm dependencies
+ */
+
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/**
+ * Import layouts
+ */
+
+@import "layouts/common";
+@import "layouts/home";
+@import "layouts/bands";
+@import "layouts/blog";
+@import "layouts/tickets";
+

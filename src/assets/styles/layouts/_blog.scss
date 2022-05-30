@@ -1,0 +1,79 @@
+.blog {
+  color: $text-color-dark;
+}
+
+.blog__container {
+  padding-left: 1%;
+  padding-right: 1%;
+
+  @media (min-width: 768px) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  @media (min-width: 992px) {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+.blog__title {
+  text-align: center;
+  height: 279px;
+  background: url("../images/festival.jpg");
+  background-position: 50% 60%;
+  color: $text-color;
+}
+
+.blog__title--h1 {
+  padding-top: 94px;
+  font-weight: bold;
+}
+
+.blog__paragraph {
+  font-size: 1rem;
+
+  &--first {
+    padding-top: 20px;
+    font-size: x-large;
+  }
+}
+
+.blog__list {
+  list-style-type: none;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  border-bottom: 1px solid $text-color-logo;
+  border-top: 1px solid $text-color-logo;
+}
+
+.blog__wrapper {
+  max-width: 100%;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.blog__wrapper > div {
+  padding: 10px;
+}
+
+.blog__wrapper--quote {
+  font-size: x-large;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 28%;
+  }
+}
+
+.blog__wrapper--text {
+  width: 100%;
+  line-height: 26px;
+
+  @media (min-width: 768px) {
+    width: 72%;
+  }
+}
