@@ -13,7 +13,10 @@
                     Calella de Palafrugell
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
             <div class="row">
@@ -27,7 +30,10 @@
                     Calella de Palafrugell
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
             <div class="row">
@@ -41,7 +47,10 @@
                     Cadaques
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
             <div class="row">
@@ -55,7 +64,10 @@
                     Cadaques
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
 
@@ -70,7 +82,10 @@
                     Ampuriabrava
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
 
@@ -85,17 +100,19 @@
                     Ampuriabrava
                 </div>
                 <div class="right pr-6">
-                    <a href="./tickets.html" class="bg-logo-500 btn--tickets" role="button" aria-pressed="true">Tickets</a>
+                    <include
+                        src="views/components/button-gold.html"
+                        locals='{"label" : "Tickets", "link": "./tickets.html"}'}>
+                    </include>
                 </div>
             </div>
         </div>
 
         <div class="container font-['Open_Sans']">
             <nav class="relative w-full flex flex-wrap items-center justify-between py-4 navbar navbar-expand-lg navbar-light bg-light top-line">
-                <a class="flex logo" href="./index.html">
-                    <img src="./assets/images/logo_48.png" alt="Festival Jazz Music - Costa Brava" width="48" height="48" class="d-inline-block align-text-top">
-                    <span class="font-serif">Festival Jazz</span>
-                </a>
+                <include
+                    src="views/components/logo.html">
+                </include>
                 <ul class="flex">
                     <li class="px-4 link">
                         <a href="./index.html">Home</a>
